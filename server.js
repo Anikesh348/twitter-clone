@@ -10,7 +10,7 @@ const routes = require('./routes/api');
 
 
 //test123
-const MONGODB_URI = '';
+const MONGODB_URI = 'mongodb+srv://anikesh:test123@cluster0.bi00k.mongodb.net/twitter-clone?retryWrites=true&w=majority';
 const MONGO_LOCACL = 'mongodb://localhost/twitter-clone';
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
