@@ -27,8 +27,8 @@ mongoose.connection.on('connected', (eror) => {
 
 
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+// app.use(express.json());
+// app.use(express.urlencoded({ extended: false }));
 
 //Serve if in heroku production status
 if (process.env.NODE_ENV === 'production') {
@@ -36,7 +36,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 
- app.use(morgan('tiny'));
  app.use('/api', routes);
 
 

@@ -19,7 +19,7 @@ function Widgets() {
         }}/>
 
       <TwitterShareButton options={{
-          text: "#magnus sucks",
+          text: "#magnus",
           via: "anishgiri"
         }}/>
     </div>

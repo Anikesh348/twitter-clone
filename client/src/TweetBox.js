@@ -38,7 +38,7 @@ function TweetBox() {
     
     setTweetMessage("");
     setTweetImage("");
-    window.location.reload();
+    //window.location.reload();
   };
 
   return (

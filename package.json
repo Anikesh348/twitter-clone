@@ -21,6 +21,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.11.18",
     "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
     "supervisor": "^0.12.0"
   }
 }
